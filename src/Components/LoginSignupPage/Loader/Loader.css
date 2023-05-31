@@ -1,0 +1,35 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .loader-line {
+    height: 5px;
+    width: 100px;
+    background-color: #ccc;
+    position: relative;
+  }
+  
+  .loader-progress {
+    height: 5px;
+    width: 30px;
+    background-color: blue;
+    position: absolute;
+    animation: loader-progress-animation 2s ease-in-out infinite;
+  }
+  
+  @keyframes loader-progress-animation {
+    0% {
+      transform: translateX(-40px);
+    }
+    50% {
+      transform: translateX(40px);
+    }
+    100% {
+      transform: translateX(-40px);
+    }
+  }
+  

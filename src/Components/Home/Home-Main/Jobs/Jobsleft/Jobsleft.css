@@ -1,0 +1,49 @@
+.containerJL{
+    width: 250px;
+    margin-left: -250px;
+    position: fixed;
+    margin-top: -10px;
+    color: rgb(114, 109, 109);
+    top: 80px;
+    z-index: 1;
+    box-shadow: 1px solid black;
+}
+.Jobstags{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 8px;
+}
+.Jobstags p{
+    font-size: 14px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.jobsicons{
+    width: 15px;
+    margin-right: 10px;
+}
+.postjob{
+    padding: 10px 20px;
+}
+.postjob button{
+    width: 100%;
+    height: 36px;
+    border-radius: 18px;
+    color: #0a66c2;
+    border: 1px solid #0a66c2;
+    background-color: white;
+}
+.postjob button:hover{
+    background-color: #0a66c2;
+    color: white;
+}
+
+@media screen and (max-width:776px) {
+    .containerJL{
+        display: none;
+    }
+}

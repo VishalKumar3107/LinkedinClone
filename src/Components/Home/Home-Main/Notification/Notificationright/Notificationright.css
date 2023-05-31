@@ -1,0 +1,25 @@
+.containerNR{
+    width: 300px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: -27px;
+    padding: 10px;
+}
+.containerNR span{
+    margin: 0px 6px;
+    font-size: 12px;
+}
+.containerNRimage{
+    display: flex;
+    align-items: center;
+}
+.containerNRimage img{
+    height: 30px;
+    margin: 0px 20px;
+}
+
+@media screen and (min-width: 768px){
+    .containerNR{
+        /* min-width: 350px; */
+    }
+}

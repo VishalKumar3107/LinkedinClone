@@ -1,0 +1,187 @@
+.containerNR {
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: -17px;
+    width: 820px;
+    height: 2000px;
+    border-radius: 8px;
+    /* color: rgb(163, 156, 156); */
+}
+
+.containerinnerbox {
+    padding: 10px;
+    padding-left: 15px;
+    padding-top: 1px;
+    box-sizing: border-box;
+    width: 810px;
+    /* padding: 0px 10px; */
+    background-color: #c4daf0;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 8px;
+}
+
+.contactstofollow {
+    width: 100%;
+    background-color:  #c4daf0;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 15px;
+}
+
+.contactbox {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 238, 238);
+    border: 1px solid rgb(189, 183, 183);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contactboxcover {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    clip-path: inset(0px 0px 80px 0px);
+}
+
+.backcoverimage {
+    margin-bottom: -110px;
+}
+
+.contactboxcover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6;
+}
+
+.contactboxprofile {
+    z-index: 1;
+}
+
+.contactboxname {
+    height: 60px;
+    font-size: 13px;
+    padding-left: 25px;
+    color: black;
+}
+
+.contactboxprofile img {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+
+.contactboxfollowers {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.contactboxbutton {
+    padding: 5px 20px;
+}
+
+.contactboxbutton button {
+    width: 100%;
+    height: 30px;
+    color: #0a66c2;
+    border-radius: 15px;
+    border: 1px solid #0a66c2;
+    background-color: white;
+}
+.contactboxbutton button:hover{
+    background-color: #0a66c2;
+    color: white;
+}
+
+.containerNR {
+    @media (max-width: 820px) {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+  .containerinnerbox {
+    @media (max-width: 820px) {
+      width: 100%;
+    }
+  }
+  
+  .contactstofollow {
+    @media (max-width: 820px) {
+      grid-template-columns: repeat(2, 250px); 
+    }
+  
+    @media (max-width: 540px) {
+      grid-template-columns: 100%; 
+    }
+  }
+  
+  .contactbox {
+    @media (max-width: 820px) {
+      width: 100%;
+    }
+  }
+  
+  .contactboxcover {
+    @media (max-width: 820px) {
+      height: 100px;
+    }
+  }
+  
+  .contactboxname {
+    @media (max-width: 820px) {
+      font-size: 12px;
+      padding-left: 15px;
+    }
+  }
+  
+  .contactboxprofile img {
+    @media (max-width: 820px) {
+      height: 50px; 
+      width: 50px; 
+      margin-left: 15px; 
+    }
+  }
+  
+  .contactboxfollowers {
+    @media (max-width: 820px) {
+      font-size: 11px;
+      margin-left: 10px; 
+    }
+  }
+  
+  .contactboxbutton {
+    @media (max-width: 820px) {
+      padding: 3px 10px; 
+    }
+  }
+  
+  .contactboxbutton button {
+    @media (max-width: 820px) {
+      height: 25px;
+      font-size: 11px;
+    }
+  }
+  
+  @media screen and (max-width:776px){
+    .contactstofollow{
+      grid-template-columns: repeat(2, 140px); 
+    }
+    .containerinnerbox {
+      padding: 10px;
+      padding-left: 0px;
+      padding-top: 0px;
+      padding: 0;
+      box-sizing: border-box;
+      min-width: 100%;
+      background-color: #c4daf0;
+      box-shadow: 2px 2px 4px black;
+      border-radius: 8px;
+  }
+  .containerNR{
+    width: 100%;
+  }
+  }

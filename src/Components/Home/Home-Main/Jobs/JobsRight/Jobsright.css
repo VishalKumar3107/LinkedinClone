@@ -1,0 +1,56 @@
+.containerJR{
+    width: 300px;
+    position: fixed;
+    margin-left: 562px;
+}
+.jobsrightone{
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: -19px;
+}
+.jobsrightone p{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.jobsrightone button{
+    border: none;
+    background-color: transparent;
+}
+.jobsrightonecenter{
+    height: 100px;
+    display: flex;
+    background-color: rgb(218, 212, 212);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.jobsrightonecenter:hover{
+    background-color: rgb(170, 168, 168);
+    color: white;
+}
+.jobsrighttwo{
+    background-color: transparent;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.jobsrighttwo span{
+    margin: 0px 6px;
+    font-size: 12px;
+}
+.jobsrighttwoimage{
+    display: flex;
+    align-items: center;
+}
+.jobsrighttwoimage img{
+    height: 30px;
+    margin: 0px 20px;
+}
+
+@media screen and (max-width:776px) {
+    .containerJR{
+        display: none;
+    }
+}

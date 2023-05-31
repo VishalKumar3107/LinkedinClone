@@ -1,0 +1,25 @@
+.containerMessR{
+    width: 300px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: -27px;
+    padding: 10px;
+}
+.containerMessR span{
+    margin: 0px 6px;
+    font-size: 12px;
+}
+.containerMessRimage{
+    display: flex;
+    align-items: center;
+}
+.containerMessRimage img{
+    height: 30px;
+    margin: 0px 20px;
+}
+
+@media screen and (max-width: 768px){
+    .containerMessR{
+        display: none;
+    }
+}

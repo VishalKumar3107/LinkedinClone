@@ -1,0 +1,182 @@
+.LeftContentBox {
+    width: 250px;
+   margin-left: -250px;
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+}
+.leftSide{
+    
+}
+.Container {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 8px;
+    margin-top: -17px;
+}
+
+.Background1 {
+    height: 100px;
+    background-color: grey;
+    border-radius: 8px 8px 0 0;
+    color: black;
+}
+
+.Background2 {
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.Background2 img {
+    margin-top: -45px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.Background2 h4 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.Background2 h6 {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+.Profile p {
+    margin: 20px 15px;
+    font-size: 11px;
+}
+
+.advertisement {
+    padding: 10px;
+    font-size: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.advertisement p {
+    /* margin-left: 10px; */
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    font-size: 11px;
+}
+
+.headericon11 {
+    font-size: 14px;
+    color: #d8a22c;
+}
+
+.headericon {
+    font-size: 14px;
+    color: #504c4c;
+}
+
+.bookmark {
+    padding: 15px;
+    font-size: 10px;
+}
+
+.nextContainer {
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.nextContainer div {
+    margin: 7px;
+    color: hsl(201, 100%, 36%);
+    font-size: 12px;
+
+}
+
+.sad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.sad p {
+    font-size: 12px;
+    padding: -10px 0px;
+}
+
+.HideHash {
+    display: block;
+}
+
+.hideonHashtags p {
+    margin: 5px 20px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .LeftContentBox {
+        width: 94%;
+        height: auto;
+        margin-top: -20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        position: absolute;
+    }
+
+    .Container {
+        border-radius: 8px 8px 0 0;
+    }
+    .leftSide {
+        padding-top: 20px;
+        border-right: none;
+        margin-bottom: 20px;
+        z-index: -1;
+    }
+    .nextContainer {
+        border-radius: 0 0 8px 8px;
+        margin-top: 0px;
+        box-sizing: border-box;
+        /* width: 95%; */
+        background-color: white;
+        box-shadow: 2px 2px 4px black;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+/* 
+@media screen and (max-width: 550px) {
+    .LeftContentBox {
+        width: 100%;
+    }
+
+    .nextContainer {
+        margin-top: 0px;
+    }
+} */
+/* 
+@media screen and (max-width: 450px) {
+    .LeftContentBox {
+        width: 95%;
+        position: absolute;
+        margin-right: 150px;
+        padding: 10px;
+    }
+
+    .nextContainer {}
+} */
+
+/* @media screen and (max-width: 450px) {
+    .LeftContentBox {
+        width: 100%;
+    }
+} */

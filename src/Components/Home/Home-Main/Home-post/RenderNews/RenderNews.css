@@ -1,0 +1,148 @@
+.Fetchedpost {
+  width: 100%;
+}
+
+.one {
+  background-color: white;
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 2px 2px 4px black;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.one-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(173, 169, 169);
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+
+}
+
+.two-one img {
+  width: 50px;
+  height: 50px;
+}
+
+.two-two {
+  margin-left: 20px;
+}
+
+.two-three {
+  /* right: 0;
+  top: 0; */
+}
+@media screen and (max-width: 750px){
+  
+}
+
+.shareIcon22 {
+  margin-right: 15px;
+  font-size: 20px;
+  color: black;
+}
+.shareIcon22:hover{
+  background-color: rgb(226, 221, 221);
+}
+
+.two-two h5 {
+  margin-bottom: -25px;
+}
+
+.two-two h6 {
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.three {
+  margin-top: 10px;
+  width: 90%;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.three p {
+  font-size: 12px;
+}
+
+.four {
+  padding: 20px 0px;
+}
+.four-four{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  font-size: 12px;
+}
+.four img {
+  width: 100%;
+}
+
+.five {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid rgb(173, 169, 169);
+}
+
+.five-one {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.five-one button {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 0;
+  font-size: 25px;
+}
+
+.five-two p {
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* .commentSubmit {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+} */
+.commentSubmit > * {
+  display: block;
+}
+.commentssaved p{
+  padding: 5px;
+}
+.commentsboxtext{
+  display: flex;
+}
+.commentsimage{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.five-two textarea {
+  width: 100%;
+  height: 60px;
+  padding-bottom: -10px;
+}
+
+.five-two button {
+  max-width: 100px;
+  background-color: #0073b1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}

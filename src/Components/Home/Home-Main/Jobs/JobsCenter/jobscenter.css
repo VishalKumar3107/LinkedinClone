@@ -1,0 +1,89 @@
+.containerJC {
+    margin-left: 10px;
+    width: 550px;
+    color: rgb(114, 109, 109);
+}
+
+.ContainerJCmain {
+    padding: 5px 10px;
+    background-color: white;
+    margin-top: -15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.jobsfetched {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.basedonn{
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.jobseachbox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(216, 212, 212);
+}
+.jobseachboxlogo{
+    flex-basis: 15%;
+}
+.jobseachboxlogo img{
+    width: 50px;
+    height: 50px;
+}
+.jobseachboxdetail{
+    margin-top: -10px;
+    flex-basis: 80%;
+    height: 120px;
+}
+.jobstitleone{
+    font-size: 16px;
+    color: #0a66c2;
+}
+.jobstitlethree{
+    height: 40px;
+}
+
+@media screen and (max-width:776px){
+    .containerJC {
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .ContainerJCmain {
+        padding: 5px 10px;
+        margin-top: -15px;
+    }
+    
+    .jobsfetched {
+        margin-top: 50px;
+    }
+    .basedonn{
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+    .jobseachbox{
+        margin-bottom: 10px;
+    }
+    .jobseachboxlogo{
+        flex-basis: 15%;
+    }
+    .jobseachboxlogo img{
+        width: 50px;
+        height: 50px;
+    }
+    .jobseachboxdetail{
+        margin-top: -10px;
+        flex-basis: 80%;
+        height: 100px;
+    }
+    .jobstitleone{
+        font-size: 14px;
+    }
+    .jobstitlethree{
+        height: 30px;
+    }
+}

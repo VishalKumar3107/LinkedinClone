@@ -1,0 +1,26 @@
+.InputWrapper99 {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    
+  }
+  .InputWrapper99 input[type="checkbox"]{
+    justify-content: space-between;
+  }
+  @media (max-width: 980px) {
+    .Box1 {
+      flex-basis: 100%;
+    }
+  
+    .Box2 {
+      display: none;
+    }
+  
+    .subHeading {
+      margin-left: 0px;
+    }
+    .BoxContainer{
+      margin-left: -50px;
+    }
+  }

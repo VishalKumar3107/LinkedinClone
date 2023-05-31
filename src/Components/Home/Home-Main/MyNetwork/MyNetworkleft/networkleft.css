@@ -1,0 +1,52 @@
+.containerN {
+    width: 250px;
+    margin-left: -250px;
+    position: fixed;
+    margin-top: -10px;
+    /* background-color: white; */
+    top: 80px;
+    z-index: 1;
+    box-shadow: 1px solid black;
+}
+.firstBoxN{
+    padding: 10px;
+    padding-left: 15px;
+    padding-top: 1px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 8px;
+}
+.firstBoxN p{
+    font-size: 14px;
+    height: 25px;
+    cursor: pointer;
+}
+.networkicons{
+    width: 15px;
+    margin-right: 10px;
+}
+.secondBoxN{
+    background-color: transparent;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.secondBoxN span{
+    margin: 0px 6px;
+    font-size: 12px;
+}
+.secondBoxNimage{
+    display: flex;
+    align-items: center;
+}
+.secondBoxNimage img{
+    height: 30px;
+    margin: 0px 1px;
+}
+@media screen and (max-width: 768px){
+    .containerN{
+        display: none;
+    }
+}

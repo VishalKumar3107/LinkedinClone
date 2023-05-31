@@ -1,0 +1,45 @@
+
+  .box {
+    /* background-color: chartreuse; */
+    width: 240px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 10px;
+    transition: max-height 0.2s ease-in-out;
+  }
+  .btn{
+    width: 80px;
+    position: relative;
+    top: 110px;
+    width: 90px;
+    height: 18px;
+    background-color: transparent;
+    border: 1px solid #0077b7;
+  }
+  ul{
+    margin-left: -18px;
+    margin-top: -10px;
+  }
+  li{
+    margin-top: -15px;
+  }
+  .xyz h6{
+    font-size: 10px;
+    margin-block-start: .67em;
+    margin-block-end: .67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  p {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    font-size: 10px;
+}
+
+  .article-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+  }
